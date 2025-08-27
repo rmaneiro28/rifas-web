@@ -1,0 +1,36 @@
+<svg width="180" height="60" viewBox="0 0 180 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#045882;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#003a57;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Fondo del logo -->
+  <rect width="180" height="60" rx="8" fill="url(#logoGradient)"/>
+  
+  <!-- Icono de dados/rifa -->
+  <g transform="translate(15, 15)">
+    <!-- Dado 1 -->
+    <rect x="0" y="0" width="12" height="12" rx="2" fill="white" opacity="0.9"/>
+    <circle cx="3" cy="3" r="1" fill="#045882"/>
+    <circle cx="9" cy="9" r="1" fill="#045882"/>
+    
+    <!-- Dado 2 -->
+    <rect x="16" y="4" width="12" height="12" rx="2" fill="white" opacity="0.8"/>
+    <circle cx="19" cy="7" r="1" fill="#045882"/>
+    <circle cx="22" cy="10" r="1" fill="#045882"/>
+    <circle cx="25" cy="13" r="1" fill="#045882"/>
+    
+    <!-- Estrella de premio -->
+    <path d="M35 8 L37 12 L42 12 L38 15 L40 20 L35 17 L30 20 L32 15 L28 12 L33 12 Z" fill="#c90b0b"/>
+  </g>
+  
+  <!-- Texto del logo -->
+  <text x="75" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">
+    RifasPlus
+  </text>
+  <text x="75" y="45" font-family="Arial, sans-serif" font-size="10" fill="white" opacity="0.9">
+    TU PLATAFORMA DE RIFAS
+  </text>
+</svg>
